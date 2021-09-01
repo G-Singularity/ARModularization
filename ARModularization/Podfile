@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ARModularization' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'HandyFrame'
+  # Pods for ARModularization
+
+  target 'ARModularizationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ARModularizationUITests' do
+    # Pods for testing
+  end
+
+end
